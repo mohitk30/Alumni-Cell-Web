@@ -114,11 +114,11 @@
                                 Register Here
                             </a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <button type="button" class="search-btn" data-bs-toggle="modal" data-bs-target="#exampleModalsrc">
                                 <i class="ri-search-line"></i>
                             </button>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
