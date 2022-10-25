@@ -1,6 +1,6 @@
 ## Alumni Cell Website
 
-* Star the Repository and Clone it. 
+* Star the Repository and Fork it. 
 
 * This Will contain Code related to Alumni Cell Website .
 
