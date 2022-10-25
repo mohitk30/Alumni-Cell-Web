@@ -24,11 +24,11 @@
 
 <body>
 
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="lds-ripple">
             <div class="pl-flip-1 pl-flip-2"></div>
         </div>
-    </div>
+    </div> -->
 
     <header class="header-area">
 
@@ -147,7 +147,7 @@
     <script src="assets/js/contact-form-script.js"></script>
     <script src="assets/js/ajaxchimp.min.js"></script>
     <script src="assets/js/custom.js"></script>
-    
+
 </body>
 
 </html>
