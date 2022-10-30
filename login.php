@@ -24,11 +24,11 @@
 
 <body>
 
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="lds-ripple">
             <div class="pl-flip-1 pl-flip-2"></div>
         </div>
-    </div>
+    </div> -->
 
     <header class="header-area">
 
