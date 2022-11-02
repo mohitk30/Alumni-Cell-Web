@@ -71,15 +71,24 @@
 
 
     <body>
-        
-         <div class="p-5">
 
-             Team
+        <div class="p-5">
+
+            <!-- Team -->
+            <div class="team-card" style="width:300px;height:500px;padding:5px;">
+                <img src="assets/images/team/yash.jpg" alt="team" class="team-img" height="400px" width="300px">
+                <div class="team-card-detail" style="height:100px;">
+                    <h1 style="text-align: center;">Yash Phogat</h1>
+                    <p style="font-size: 1rem;text-align: center;">President</p>
+                    <p style="font-size: 1rem;text-align: center;">Contact No:-9667650530</p>
+
+                </div>
+            </div>
 
 
 
 
-         </div>
+        </div>
     </body>
 
 
