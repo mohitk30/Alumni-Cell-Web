@@ -25,12 +25,12 @@
 
 <body>
 
-    <!-- 
+    <!--
         <div class="preloader">
         <div class="lds-ripple">
         <div class="pl-flip-1 pl-flip-2"></div>
         </div>
-        </div> 
+        </div>
     -->
 
 
@@ -73,7 +73,7 @@
                                 <span>NITD Alumni Network</span>
                                 <h1>Stay Connected with NIT Delhi Family.</h1>
                                 <div class="banner-btn">
-                                    <a href="" class="default-btn">
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScO_T_-_MHrGBBIA2XRtLdSx4I-Ynz0dJnwgT7odf10DJbW4w/viewform" class="default-btn">
                                         Join Now
                                         <i class="ri-arrow-right-line"></i>
                                     </a>
