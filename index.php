@@ -202,7 +202,7 @@
             <div class="row justify-content-md-center">
                 <div class="col-lg-4 col-md-6">
                     <div class="single-team-member">
-                        <img src="assets/images/team/mohit.jpg" alt="Image">
+                        <img src="assets/images/team/mohit.jpg" alt="Image" onerror=this.src="assets/images/team/Alternate.jpg">
                         <div class="team-content">
                             <div class="team-social">
                                 <a href="#" class="control">
@@ -240,7 +240,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-team-member">
-                        <img src="assets/images/team/rajat.jpg" alt="Image">
+                        <img src="assets/images/team/rajat.jpg" alt="Image" onerror=this.src="assets/images/team/Alternate.jpg">
                         <div class="team-content">
                             <div class="team-social">
                                 <a href="#" class="control">
@@ -278,7 +278,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-team-member">
-                        <img src="assets/images/team/yash.jpg" alt="Image">
+                        <img src="assets/images/team/yash.jpg" alt="Image" onerror=this.src="assets/images/team/Alternate.jpg">
                         <div class="team-content">
                             <div class="team-social">
                                 <a href="#" class="control">
@@ -316,7 +316,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-team-member">
-                        <img src="assets/images/team/abhishesk.jpg" alt="Image">
+                        <img src="assets/images/team/abhishesk.jpg" alt="Image" onerror=this.src="assets/images/team/Alternate.jpg">
                         <div class="team-content">
                             <div class="team-social">
                                 <a href="#" class="control">
@@ -354,7 +354,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-team-member">
-                        <img src="assets/images/team/yash-phogat.jpg" alt="Image">
+                        <img src="assets/images/team/yash-phogat.jpg" alt="Image" onerror=this.src="assets/images/team/Alternate.jpg">
                         <div class="team-content">
                             <div class="team-social">
                                 <a href="#" class="control">
@@ -392,7 +392,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-team-member">
-                        <img src="assets/images/team/Gaurav.jpg" alt="Image">
+                        <img src="assets/images/team/Gaurav.jpg" alt="Image" onerror=this.src="assets/images/team/Alternate.jpg">
                         <div class="team-content">
                             <div class="team-social">
                                 <a href="#" class="control">
@@ -435,7 +435,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="single-team-member">
-                        <img src="assets/images/team/Ninad Milind Mohite.jpg" alt="Image">
+                        <img src="assets/images/team/Ninad Milind Mohite.jpg" alt="Image" onerror=this.src="assets/images/team/Alternate.jpg">
                         <div class="team-content">
                             <div class="team-social">
                                 <a href="#" class="control">
@@ -477,7 +477,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="single-team-member">
-                        <img src="assets/images/team/Prabhanshu Chandra.jpg" alt="Image">
+                        <img src="assets/images/team/Prabhanshu Chandra.jpg" alt="Image" onerror=this.src="assets/images/team/Alternate.jpg">
                         <div class="team-content">
                             <div class="team-social">
                                 <a href="#" class="control">
@@ -519,7 +519,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="single-team-member">
-                        <img src="assets/images/team/Mrigendra Singh.jpg" alt="Image">
+                        <img src="assets/images/team/Mrigendra Singh.jpg" alt="Image" onerror=this.src="assets/images/team/Alternate.jpg">
                         <div class="team-content">
                             <div class="team-social">
                                 <a href="#" class="control">
@@ -563,7 +563,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="single-team-member">
-                        <img src="assets/images/team/Keshav Kedia.jpg" alt="Image">
+                        <img src="assets/images/team/Keshav Kedia.jpg" alt="Image" onerror=this.src="assets/images/team/Alternate.jpg">
                         <div class="team-content">
                             <div class="team-social">
                                 <a href="#" class="control">
@@ -605,7 +605,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="single-team-member">
-                        <img src="assets/images/team/Nivesh negi.jpg" alt="Image">
+                        <img src="assets/images/team/Nivesh negi.jpg" alt="Image" onerror=this.src="assets/images/team/Alternate.jpg">
                         <div class="team-content">
                             <div class="team-social">
                                 <a href="#" class="control">
@@ -649,7 +649,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="single-team-member">
-                        <img src="assets/images/team/Puneet Kumar Sharma.jpg" alt="Image">
+                        <img src="assets/images/team/Puneet Kumar Sharma.jpg" alt="Image" onerror=this.src="assets/images/team/Alternate.jpg">
                         <div class="team-content">
                             <div class="team-social">
                                 <a href="#" class="control">
@@ -693,7 +693,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="single-team-member">
-                        <img src="assets/images/team/19535021_NEERAJ KUMAR_CSE.png" alt="Image">
+                        <img src="assets/images/team/19535021_NEERAJ KUMAR_CSE.png" alt="Image" onerror=this.src="assets/images/team/Alternate.jpg">
                         <div class="team-content">
                             <div class="team-social">
                                 <a href="#" class="control">
@@ -734,7 +734,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="single-team-member">
-                        <img src="assets/images/team/Arpan Kumar Singh .jpg" alt="Image">
+                        <img src="assets/images/team/Arpan Kumar Singh .jpg" alt="Image" onerror=this.src="assets/images/team/Alternate.jpg">
                         <div class="team-content">
                             <div class="team-social">
                                 <a href="#" class="control">
