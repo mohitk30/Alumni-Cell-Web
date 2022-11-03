@@ -876,7 +876,7 @@
                         <div class="single-counter bg-style">
                             <i class="flaticon-graduated"></i>
                             <h2>
-                                <span class="odometer" data-count="2000">00</span>
+                                <span class="odometer" data-count="2000">180+</span>
                             </h2>
                             <h4>Students</h4>
                         </div>
@@ -886,7 +886,7 @@
                             <i class="flaticon-teacher"></i>
                             <div class="count-title">
                                 <h2>
-                                    <span class="odometer" data-count="80">00</span>
+                                    <span class="odometer" data-count="80">60+</span>
                                 </h2>
                                 <h4>Teachers</h4>
                             </div>
@@ -897,7 +897,7 @@
                             <i class="flaticon-book-1"></i>
                             <div class="count-title">
                                 <h2>
-                                    <span class="odometer" data-count="60">00</span>
+                                    <span class="odometer" data-count="60">20+</span>
                                 </h2>
                                 <h4>Subjects</h4>
                             </div>
@@ -908,7 +908,7 @@
                             <i class="flaticon-graduation-cap"></i>
                             <div class="count-title">
                                 <h2>
-                                    <span class="odometer" data-count="300">00</span>
+                                    <span class="odometer" data-count="300">600+</span>
                                 </h2>
                                 <h4>Alumni</h4>
                             </div>
