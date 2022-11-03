@@ -85,8 +85,8 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="banner-img">
-                                <img src="assets/images/qqqq.png" alt="Image">
+                            <div class="banner-img" style="max-height: 450px;">
+                                <img src="assets/images/qqqq.png" style="height:450px;margin:auto;margin-left:52px;" alt="Image">
                             </div>
                         </div>
                     </div>
