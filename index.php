@@ -850,12 +850,13 @@
                             <img src="assets/images/event-img.jpg" alt="Image">
                         </div>
                         <span>Next Event</span>
-                        <div id="timer">
+                        <!-- <div id="timer">
                             <div id="days"></div>
                             <div id="hours"></div>
                             <div id="minutes"></div>
                             <div id="seconds"></div>
-                        </div>
+                        </div> -->
+                        <div><p style="color:#fff; font-size:30px;">No Upcoming Events</p></div>
                         <a href="https://docs.google.com/forms/d/1R8mrpnzEbO3_GovG_KUqzCCD1Aymx11jZ0Pd-WJjgs8/edit" class="default-btn">
                             Join Now!
                             <i class="ri-arrow-right-line"></i>
