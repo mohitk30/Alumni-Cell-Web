@@ -114,7 +114,7 @@
     const TeamArr = [{
             name: 'Deepak Sharma',
             occupation: 'Web Head',
-            imglink: 'assets/images/team/yash.jpg',
+            imglink: 'https://drive.google.com/open?id=12ER_XjALlvBNvik1wsbNnPHdUujALXVX',
             linkdin: '#',
             phone: '+91-9992912345',
             email: '123@gmail.com',
@@ -163,7 +163,7 @@
     TeamArr.map((obj) => {
         const litral = `<div class="col-md-3 col-11 my-4 mx-md-3">
                         <div class="card">
-                            <img class="card-img-top" src='${obj.imglink}' alt="Card image cap">
+                            <img class="card-img-top" src='${obj.imglink}' alt="Card image cap" onerror=this.src="assets/images/team/Alternate.jpg">
                             <div class="card-body">
                                 <p class="card-text text-center">
                                 <div id="member-name">${obj.name}</div>
@@ -178,6 +178,7 @@
                             </div>
                         </div>
                     </div>`
+
         TeamContainer.innerHTML += litral;
     });
 </script>
