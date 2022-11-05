@@ -48,3 +48,10 @@
 .social-link-container i:hover{
     font-size: 1.4rem;
 }
+
+.make-card-up:hover{
+    transform: translate(0px, -1px);
+      cursor: pointer;
+      box-shadow: 0px 0px 20px  #a8a7a9;
+
+}
