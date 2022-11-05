@@ -85,8 +85,8 @@
                                 </p>
                                 <div class="social-link-container">
                                     <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
-                                    <a href="tel:" target="_blank"><i class="bi bi-telephone-fill"></i></a>
-                                    <a href="mailto:" target="_blank"><i class="bi bi-envelope-fill"></i></a>
+                                    <a href="tel:+91-9992912345" target="_blank"><i class="bi bi-telephone-fill"></i></a>
+                                    <a href="mailto:123@gmail.com" target="_blank"><i class="bi bi-envelope-fill"></i></a>
                                     <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
                                 </div>
                             </div>
@@ -272,7 +272,7 @@
             phone: '9634916827',
             email: '201210051@nitdelhi.ac.in',
             instagram: '#'
-        },
+        }
     ]
 
     const TeamContainer = document.querySelector('.team-member-block');
