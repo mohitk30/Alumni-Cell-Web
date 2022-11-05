@@ -1,0 +1,50 @@
+.row {
+    --bs-gutter-x: 0rem !important;
+}
+
+.team-container h1 {
+    text-shadow: 4px 0px 5px #92210f;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+    box-shadow: 1px 0 5px #92210f;
+    border-radius: 12px;
+}
+
+.card:hover{
+    box-shadow: 2px 0 8px black;
+}
+
+.team-inner-container {
+    background-color: whitesmoke;
+}
+
+.card-body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#member-name{
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+#member-occupation{
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.social-link-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.social-link-container i{
+    font-size: 1.2rem;
+    transition: all 0.3s;
+}
+
+.social-link-container i:hover{
+    font-size: 1.4rem;
+}
