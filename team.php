@@ -290,7 +290,7 @@
     TeamArr.map((obj) => {
         const litral = `<div class="col-md-3 col-11 my-4 mx-md-3">
                         <div class="card make-card-up">
-                            <img class="card-img-top" src='${obj.imglink}' style="height:350px;padding:4px;border-radius:8px;" alt="Card image cap" onerror=this.src="assets/images/team/Alternate.jpg">
+                          <div>  <img class="card-img-top" src='${obj.imglink}' style="height:350px;padding:4px;border-radius:8px;" alt="Card image cap" onerror=this.src="assets/images/team/Alternate.jpg"> </div>
                             <div class="card-body">
                                 <p class="card-text text-center">
                                 <div id="member-name">${obj.name}</div>
