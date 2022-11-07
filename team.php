@@ -69,12 +69,13 @@
                 <div class="row">
                     <div class="col-12 my-2">
                         <div style="margin-left: 30%;margin-right: 30%;">
-                            <h2 style="background:#990000; color:#fff; padding:5px; m"> The Team 2022</h2>
+                            <h2 style="background:#990000; color:#fff; padding:5px; "> The Team 2022</h2>
                         </div>
                         <!-- <hr> -->
                     </div>
                 </div>
-                <div class="row d-flex justify-content-evenly team-member-block">
+                <div class=" team-member-block" style="max-width:100%;display:flex;flex-wrap:wrap;width:100vw;min-width:350px;">
+
                     <!-- HERE TEAM CARD WILL BE DISPLAYED  -->
                     <!--    DEMOCARD
                     <div class="col-md-3 col-11 my-4 mx-md-3">
@@ -94,6 +95,7 @@
                             </div>
                         </div>
                     </div> -->
+
                 </div>
             </div>
         </div>
@@ -183,7 +185,7 @@
 
         {
             name: 'Dev Srivastava',
-            occupation: 'Coordinator',
+            occupation: 'Volunteer',
             imglink: 'assets/team/Dev Srivastava.jpg',
             linkdin: 'https://www.linkedin.com/in/dev-srivastava-76ba31222',
             phone: '6387660520',
@@ -192,7 +194,7 @@
         },
         {
             name: 'Devansh Gahlawat',
-            occupation: 'Coordinator',
+            occupation: 'Volunteer',
             imglink: 'assets/team/DEVANSH GAHLAWAT.jpg',
             linkdin: 'https://www.linkedin.com/in/devansh-gahlawat-461838239',
             phone: '9817728471',
@@ -201,7 +203,7 @@
         },
         {
             name: 'Dhruv Tyagi',
-            occupation: 'Coordinator',
+            occupation: 'Volunteer',
             imglink: 'assets/team/DHRUV TYAGI.jpg',
             linkdin: 'https://www.linkedin.com/in/dhruv-tyagi-58a9aa22a',
             phone: '8800377612',
@@ -210,7 +212,7 @@
         },
         {
             name: 'K Siddharth',
-            occupation: 'Coordinator',
+            occupation: 'Volunteer',
             imglink: 'assets/team/K SIDDHARTH.jpg',
             linkdin: 'https://www.linkedin.com/in/siddharth-k-3009b4172',
             phone: '7907148789',
@@ -220,7 +222,7 @@
 
         {
             name: 'Moulik Sharma',
-            occupation: 'Coordinator',
+            occupation: 'Volunteer',
             imglink: 'assets/team/Moulik Sharma.jpeg',
             linkdin: 'www.linkedin.com/in/m--1b3586221',
             phone: '7303557727',
@@ -230,7 +232,7 @@
 
         {
             name: 'Rishabh Raj',
-            occupation: 'Coordinator',
+            occupation: 'Volunteer',
             imglink: 'assets/team/RISHABH RAJ.jpg',
             linkdin: '#https://www.linkedin.com/in/rishabh-raj-1235771a2',
             phone: '6395628967',
@@ -239,7 +241,7 @@
         },
         {
             name: 'Sajal Sahu',
-            occupation: 'Coordinator',
+            occupation: 'Volunteer',
             imglink: 'assets/team/SAJAL SAHU.jpeg',
             linkdin: ' https://www.linkedin.com/in/sajalsahu8',
             phone: '8349881787',
@@ -249,7 +251,7 @@
 
         {
             name: 'Shreyansh Raj',
-            occupation: 'Coordinator',
+            occupation: 'Volunteer',
             imglink: 'assets/team/SHREYANSH RAJ.jpeg',
             linkdin: 'https://www.linkedin.com/in/shreyansh-raj-9bbba5226',
             phone: '9798530423',
@@ -258,7 +260,7 @@
         },
         {
             name: 'Shweta Rana',
-            occupation: 'Coordinator',
+            occupation: 'Volunteer',
             imglink: 'assets/team/SHWETA RANA.jpg',
             linkdin: 'www.linkedin.com/in/shweta-rana-sr04',
             phone: '9810916185',
@@ -267,7 +269,7 @@
         },
         {
             name: 'Sonali Kashyap',
-            occupation: 'Coordinator',
+            occupation: 'Volunteer',
             imglink: 'assets/team/SONALI KASHYAP.jpeg',
             linkdin: 'www.linkedin.com/in/sonali-kashyap-6a2b7422b',
             phone: '7970760168',
@@ -276,7 +278,7 @@
         },
         {
             name: 'Sunny Maurya',
-            occupation: 'Coordinator',
+            occupation: 'Volunteer',
             imglink: 'assets/team/SUNNY MAURYA.jpg',
             linkdin: 'https://www.linkedin.com/in/sunnymaurya6327/',
             phone: '9610583077',
@@ -284,13 +286,14 @@
             instagram: '#'
         }
     ]
+    // object-position:top;object-fit: cover;
 
     const TeamContainer = document.querySelector('.team-member-block');
 
     TeamArr.map((obj) => {
-        const litral = `<div class="col-md-3 col-11 my-4 mx-md-3">
-                        <div class="card make-card-up">
-                            <img class="card-img-top" src='${obj.imglink}' style="height:350px;padding:4px;border-radius:8px;" alt="Card image cap" onerror=this.src="assets/images/team/Alternate.jpg">
+        const litral = `<div class=" " style="width:30%; max-width:350px;margin:12px;margin:auto;margin-bottom:22px;">
+                        <div class="card make-card-up" style=";">
+                          <div style="height:350px">  <img class="card-img-top" src='${obj.imglink}' style="object-fit: cover;height:100%;padding:4px;border-radius:8px;" alt="Card image cap" onerror=this.src="assets/images/team/Alternate.jpg"> </div>
                             <div class="card-body">
                                 <p class="card-text text-center">
                                 <div id="member-name">${obj.name}</div>
