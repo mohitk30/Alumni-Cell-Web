@@ -68,8 +68,10 @@
             <div class="col-md-10 mx-auto team-inner-container text-center my-3 shadow">
                 <div class="row">
                     <div class="col-12 my-2">
-                        <h1>The TEAM 2022</h1>
-                        <hr>
+                        <div style="margin-left: 30%;margin-right: 30%;">
+                            <h2 style="background:#990000; color:#fff; padding:5px; m"> The Team 2022</h2>
+                        </div>
+                        <!-- <hr> -->
                     </div>
                 </div>
                 <div class="row d-flex justify-content-evenly team-member-block">
@@ -112,17 +114,16 @@
 
 <script>
     const TeamArr = [
-        
+
         {
             name: 'Sanskar Kumar',
             occupation: 'General Secretary',
-            imglink: 'assets/team/Alternate.jpg',
+            imglink: 'assets/team/Sanskar Kumar.jpg',
             linkdin: 'https://www.linkedin.com/in/sanskar-kumar-52aa551a9/',
             phone: '9667650530',
             email: '201220039@nitdelhi.ac.in',
             instagram: '#'
-        }
-        ,
+        },
         {
             name: 'Umang Kumar',
             occupation: 'General Secretary',
@@ -131,8 +132,7 @@
             phone: '9634916827',
             email: '201210051@nitdelhi.ac.in',
             instagram: '#'
-        }
-        ,
+        },
         {
             name: 'Deepak Sharma',
             occupation: 'Development Head',
@@ -162,14 +162,14 @@
         },
         {
             name: 'Rakshit Singh',
-            occupation: 'Designer Head',
+            occupation: 'Design Head',
             imglink: 'assets/team/Alternate.jpg',
             linkdin: '#',
             phone: '7462012290',
             email: '201220036@nitdelhi.ac.in',
             instagram: '#'
         },
-        
+
         {
             name: 'Ayushi Arya',
             occupation: 'PR Head',
@@ -179,8 +179,8 @@
             email: '201210012@nitdelhi.ac.in',
             instagram: '#'
         },
-        
-        
+
+
         {
             name: 'Dev Srivastava',
             occupation: 'Coordinator',
@@ -217,7 +217,7 @@
             email: '211230027@nitdelhi.ac.in',
             instagram: '#'
         },
-        
+
         {
             name: 'Moulik Sharma',
             occupation: 'Coordinator',
@@ -227,7 +227,7 @@
             email: '211210039@nitdelhi.ac.in',
             instagram: '#'
         },
-        
+
         {
             name: 'Rishabh Raj',
             occupation: 'Coordinator',
@@ -246,7 +246,7 @@
             email: '211210056@nitdelhi.ac.in',
             instagram: '#'
         },
-        
+
         {
             name: 'Shreyansh Raj',
             occupation: 'Coordinator',
