@@ -165,8 +165,8 @@
         {
             name: 'Rakshit Singh',
             occupation: 'Design Head',
-            imglink: 'assets/team/Alternate.jpg',
-            linkdin: '#',
+            imglink: 'assets/team/Rakshit Singh.jpg',
+            linkdin: 'https://www.linkedin.com/in/rakshit-singh-bb4867202/?originalSubdomain=in',
             phone: '7462012290',
             email: '201220036@nitdelhi.ac.in',
             instagram: '#'
@@ -297,7 +297,7 @@
                             <div class="card-body">
                                 <p class="card-text text-center">
                                 <div id="member-name">${obj.name}</div>
-                                <div id="member-occupation">(${obj.occupation})</div>
+                                <div id="member-occupation"><strong>(${obj.occupation})</strong></div>
                                 </p>
                                 <div class="social-link-container">
                                     <a href='${obj.linkdin}' target="_blank"><i class="bi bi-linkedin"></i></a>
