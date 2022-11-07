@@ -127,7 +127,7 @@
         {
             name: 'Umang Kumar',
             occupation: 'General Secretary',
-            imglink: 'assets/team/Umang Kumar.jpeg',
+            imglink: 'assets/team/Umang Kumar.jpg',
             linkdin: 'https://www.linkedin.com/in/umangkumarr',
             phone: '9634916827',
             email: '201210051@nitdelhi.ac.in',
