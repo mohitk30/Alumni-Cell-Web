@@ -68,7 +68,7 @@
             <div class="col-md-10 mx-auto team-inner-container text-center my-3 shadow">
                 <div class="row">
                     <div class="col-12 my-2">
-                        <div style="margin-left: 30%;margin-right: 30%;">
+                        <div style="margin-left: 25%;margin-right: 25%;">
                             <h2 style="background:#990000; color:#fff; padding:5px; "> The Team 2022</h2>
                         </div>
                         <!-- <hr> -->
