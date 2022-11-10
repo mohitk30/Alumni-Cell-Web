@@ -68,7 +68,7 @@
             <div class="col-md-10 mx-auto team-inner-container text-center my-3 shadow">
                 <div class="row">
                     <div class="col-12 my-2">
-                        <div style="margin-left: 30%;margin-right: 30%;">
+                        <div style="margin-left: 25%;margin-right: 25%;">
                             <h2 style="background:#990000; color:#fff; padding:5px; "> The Team 2022</h2>
                         </div>
                         <!-- <hr> -->
@@ -164,8 +164,8 @@
         {
             name: 'Rakshit Singh',
             occupation: 'Design Head',
-            imglink: 'assets/team/Alternate.jpg',
-            linkdin: '#',
+            imglink: 'assets/team/Rakshit Singh.jpg',
+            linkdin: 'https://www.linkedin.com/in/rakshit-singh-bb4867202/?originalSubdomain=in',
             phone: '7462012290',
             email: '201220036@nitdelhi.ac.in',
             instagram: '#'
@@ -297,7 +297,7 @@
                             <div class="card-body">
                                 <p class="card-text text-center">
                                 <div id="member-name">${obj.name}</div>
-                                <div id="member-occupation">(${obj.occupation})</div>
+                                <div id="member-occupation"><strong>(${obj.occupation})</strong></div>
                                 </p>
                                 <div class="social-link-container">
                                     <a href='${obj.linkdin}' target="_blank"><i class="bi bi-linkedin"></i></a>
