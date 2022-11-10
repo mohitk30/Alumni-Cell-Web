@@ -63,7 +63,7 @@
         </div>
     </div>
 
-    <div class="team-container">
+    <div class="team-container mb-5">
         <div class="row mt-2 text-center">
             <div class="col-md-10 mx-auto team-inner-container text-center my-3 shadow">
                 <div class="row">
@@ -115,9 +115,8 @@
 </body>
 
 <script>
-    const TeamArr = [
-
-        {
+    const TeamArr = {
+        "GS":[{
             name: 'Sanskar Kumar',
             occupation: 'General Secretary',
             imglink: 'assets/team/Sanskar Kumar.jpg',
@@ -134,8 +133,8 @@
             phone: '9634916827',
             email: '201210051@nitdelhi.ac.in',
             instagram: '#'
-        },
-        {
+        }],
+        "DGS":[{
             name: 'Deepak Sharma',
             occupation: 'Development Head',
             imglink: 'assets/team/DEEPAK SHARMA.jpeg',
@@ -180,10 +179,10 @@
             phone: '9311432678',
             email: '201210012@nitdelhi.ac.in',
             instagram: '#'
-        },
+        }],
 
 
-        {
+        "Volunteer":[{
             name: 'Dev Srivastava',
             occupation: 'Volunteer',
             imglink: 'assets/team/Dev Srivastava.jpg',
@@ -284,13 +283,14 @@
             phone: '9610583077',
             email: '211230056@nitdelhi.ac.in',
             instagram: '#'
-        }
-    ]
+        }]
+    }
     // object-position:top;object-fit: cover;
 
     const TeamContainer = document.querySelector('.team-member-block');
+    console.log(TeamArr)
 
-    TeamArr.map((obj) => {
+    TeamArr["GS"].map((obj) => {
         const litral = `<div class=" " style="width:30%; max-width:350px;margin:12px;margin:auto;margin-bottom:22px;">
                         <div class="card make-card-up" style=";">
                           <div style="height:350px">  <img class="card-img-top" src='${obj.imglink}' style="object-fit: cover;height:100%;padding:4px;border-radius:8px;" alt="Card image cap" onerror=this.src="assets/images/team/Alternate.jpg"> </div>
@@ -312,5 +312,9 @@
         TeamContainer.innerHTML += litral;
     });
 </script>
+
+<?php
+        include_once("footer.php");
+    ?>
 
 </html>
