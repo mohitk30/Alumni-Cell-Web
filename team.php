@@ -21,6 +21,35 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+        hr {
+	 border: 0;
+	 height: 1px;
+	 width: 10%;
+	 position: relative;
+	 margin: 30px auto;
+}
+ hr.center-diamond {
+	 background: red;
+	/* Opera, Chrome, and Safari */
+}
+ hr.center-diamond:before {
+	 content: "";
+	 width: 12px;
+	 height: 12px;
+	 background: red;
+	 display: inline-block;
+	 border: 2px solid red;
+	 position: absolute;
+	 top: -5px;
+	 left: 50%;
+	 margin: 0 0 0 -3px;
+	 transform: rotate(45deg);
+	 -ms-transform: rotate(45deg);
+	 -webkit-transform: rotate(45deg);
+	/* IE 9 */
+}
+    </style>
 
     <title>Team @Alumni Cell</title>
 </head>
@@ -74,7 +103,15 @@
                         <!-- <hr> -->
                     </div>
                 </div>
-                <div class=" team-member-block" style="max-width:100%;display:flex;flex-wrap:wrap;width:100vw;min-width:350px;">
+                <div class="team-members">
+                    <div class="team-members-gs" style="max-width:100%;display:flex;flex-wrap:wrap;width:100vw;min-width:350px;"></div>
+                    <hr class="center-diamond">
+                    <div class="team-members-dgs" style="max-width:100%;display:flex;flex-wrap:wrap;width:100vw;min-width:350px;"></div>
+                    <hr class="center-diamond">
+                    <div class="team-members-volunteer" style="max-width:100%;display:flex;flex-wrap:wrap;width:100vw;min-width:350px;"></div>
+
+                </div>
+                <!-- <div class="team-member-block" style="max-width:100%;display:flex;flex-wrap:wrap;width:100vw;min-width:350px;"> -->
 
                     <!-- HERE TEAM CARD WILL BE DISPLAYED  -->
                     <!--    DEMOCARD
@@ -96,7 +133,7 @@
                         </div>
                     </div> -->
 
-                </div>
+                <!-- </div> -->
             </div>
         </div>
     </div>
@@ -287,8 +324,7 @@
     }
     // object-position:top;object-fit: cover;
 
-    const TeamContainer = document.querySelector('.team-member-block');
-    console.log(TeamArr)
+    const TeamContainerGs = document.querySelector('.team-members-gs');
 
     TeamArr["GS"].map((obj) => {
         const litral = `<div class=" " style="width:30%; max-width:350px;margin:12px;margin:auto;margin-bottom:22px;">
@@ -309,8 +345,59 @@
                         </div>
                     </div>`
 
-        TeamContainer.innerHTML += litral;
+        TeamContainerGs.innerHTML += litral;
     });
+
+    const TeamContainerDgs = document.querySelector('.team-members-dgs');
+
+    TeamArr["DGS"].map((obj) => {
+        const litral = `<div class=" " style="width:30%; max-width:350px;margin:12px;margin:auto;margin-bottom:22px;">
+                        <div class="card make-card-up" style=";">
+                          <div style="height:350px">  <img class="card-img-top" src='${obj.imglink}' style="object-fit: cover;height:100%;padding:4px;border-radius:8px;" alt="Card image cap" onerror=this.src="assets/images/team/Alternate.jpg"> </div>
+                            <div class="card-body">
+                                <p class="card-text text-center">
+                                <div id="member-name">${obj.name}</div>
+                                <div id="member-occupation"><strong>(${obj.occupation})</strong></div>
+                                </p>
+                                <div class="social-link-container">
+                                    <a href='${obj.linkdin}' target="_blank"><i class="bi bi-linkedin"></i></a>
+                                    <a href="tel:${obj.phone}" target="_blank"><i class="bi bi-telephone-fill"></i></a>
+                                    <a href="mailto:${obj.email}"><i class="bi bi-envelope-fill"></i></a>
+                                    <a href="${obj.instagram}" target="_blank"><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>`
+
+        TeamContainerDgs.innerHTML += litral;
+    });
+
+    const TeamContainerVol = document.querySelector('.team-members-volunteer');
+
+    TeamArr["Volunteer"].map((obj) => {
+        const litral = `<div class=" " style="width:30%; max-width:350px;margin:12px;margin:auto;margin-bottom:22px;">
+                        <div class="card make-card-up" style=";">
+                          <div style="height:350px">  <img class="card-img-top" src='${obj.imglink}' style="object-fit: cover;height:100%;padding:4px;border-radius:8px;" alt="Card image cap" onerror=this.src="assets/images/team/Alternate.jpg"> </div>
+                            <div class="card-body">
+                                <p class="card-text text-center">
+                                <div id="member-name">${obj.name}</div>
+                                <div id="member-occupation"><strong>(${obj.occupation})</strong></div>
+                                </p>
+                                <div class="social-link-container">
+                                    <a href='${obj.linkdin}' target="_blank"><i class="bi bi-linkedin"></i></a>
+                                    <a href="tel:${obj.phone}" target="_blank"><i class="bi bi-telephone-fill"></i></a>
+                                    <a href="mailto:${obj.email}"><i class="bi bi-envelope-fill"></i></a>
+                                    <a href="${obj.instagram}" target="_blank"><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>`
+
+        TeamContainerVol.innerHTML += litral;
+    });
+
+
+    
 </script>
 
 <?php
